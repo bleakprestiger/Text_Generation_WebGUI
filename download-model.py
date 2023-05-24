@@ -48,7 +48,8 @@ def select_model_from_default_options():
     print(f"{char_exit}) Do not download a model")
     print()
     print("Input> ", end='')
-    choice = input()[0].strip().upper()
+    #choice = input()[0].strip().upper()
+    choice = char_exit.upper()
     if choice == char_exit:
         exit()
     elif choice == char_hugging:
@@ -60,7 +61,8 @@ EleutherAI/pythia-1.4b-deduped
 """)
 
         print("Input> ", end='')
-        model = input()
+        #model = input()
+        model = "eachadea/legacy-ggml-vicuna-13b-4bit"
         branch = "main"
     else:
         arr = models[choices[choice]]
