@@ -1,4 +1,4 @@
-# Text generation web UI
+# Text generation Web GUI Specially Optimized For Running In Kaggle Kernels.
 
 A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.
 
