@@ -63,7 +63,8 @@ EleutherAI/pythia-1.4b-deduped
 
         print("Input> ", end='')
         #model = input()
-        model = "anon8231489123/vicuna-13b-GPTQ-4bit-128g"
+        model = 'L'
+        #model = "anon8231489123/vicuna-13b-GPTQ-4bit-128g"
         branch = "main"
     else:
         arr = models[choices[choice]]
