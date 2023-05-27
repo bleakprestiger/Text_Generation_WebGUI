@@ -49,8 +49,8 @@ def select_model_from_default_options():
     print(f"{char_exit}) Do not download a model")
     print()
     print("Input> ", end='')
-    #choice = input()[0].strip().upper()
-    choice = char_exit.upper()
+    choice = input()[0].strip().upper()
+    #choice = char_exit.upper()
     if choice == char_exit:
         exit()
     elif choice == char_hugging:
