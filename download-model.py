@@ -33,7 +33,7 @@ def select_model_from_default_options():
         "Pythia-2.8B-deduped": ("EleutherAI", "pythia-2.8b-deduped", "main"),
         "Pythia-1.4B-deduped": ("EleutherAI", "pythia-1.4b-deduped", "main"),
         "Pythia-410M-deduped": ("EleutherAI", "pythia-410m-deduped", "main"),
-        "ggml-vicuna-13b-1.1": ("eachadea", "ggml-vicuna-13b-1.1", "main"),
+        "legacy-vicuna-13b": ("eachadea", "legacy-vicuna-13b", "main"),
     }
 
     choices = {}
