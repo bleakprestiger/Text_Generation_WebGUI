@@ -34,6 +34,7 @@ def select_model_from_default_options():
         "Pythia-1.4B-deduped": ("EleutherAI", "pythia-1.4b-deduped", "main"),
         "Pythia-410M-deduped": ("EleutherAI", "pythia-410m-deduped", "main"),
         "legacy-vicuna-13b": ("eachadea", "legacy-vicuna-13b", "main"),
+        "WizardLM-7B-uncensored-GPTQ": ("TheBloke", "WizardLM-7B-uncensored-GPTQ", "main"),
     }
 
     choices = {}
