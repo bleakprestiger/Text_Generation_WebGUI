@@ -65,7 +65,7 @@ EleutherAI/pythia-1.4b-deduped
 """)
 
         print("Input> ", end='')
-        model = input()
+        model = 'O'
         #model = 'L'
         #model = "anon8231489123/vicuna-13b-GPTQ-4bit-128g"
         branch = "main"
