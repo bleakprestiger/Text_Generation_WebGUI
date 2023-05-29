@@ -35,6 +35,8 @@ def select_model_from_default_options():
         "Pythia-410M-deduped": ("EleutherAI", "pythia-410m-deduped", "main"),
         "legacy-vicuna-13b": ("eachadea", "legacy-vicuna-13b", "main"),
         "WizardLM-7B-uncensored-GPTQ": ("TheBloke", "WizardLM-7B-uncensored-GPTQ", "main"),
+        "Bleak/ggml-vicuna-13b-4bit": ("Bleak","ggml-vicuna-13b-4bit"),
+        "Bleak/ggml-vicuna-13b-4bit-rev1": ("Bleak","ggml-vicuna-13b-4bit-rev1"),
     }
 
     choices = {}
@@ -50,8 +52,8 @@ def select_model_from_default_options():
     print(f"{char_exit}) Do not download a model")
     print()
     print("Input> ", end='')
-    choice = input()[0].strip().upper()
-    #choice = char_exit.upper()
+    #choice = input()[0].strip().upper()
+    choice = 'O'.upper()
     if choice == char_exit:
         exit()
     elif choice == char_hugging:
@@ -63,7 +65,7 @@ EleutherAI/pythia-1.4b-deduped
 """)
 
         print("Input> ", end='')
-        model = input()
+        model = 'O'
         #model = 'L'
         #model = "anon8231489123/vicuna-13b-GPTQ-4bit-128g"
         branch = "main"
