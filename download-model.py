@@ -65,14 +65,16 @@ EleutherAI/pythia-1.4b-deduped
 """)
 
         print("Input> ", end='')
-        model = 'O'
+        model = 'O'.upper()
         #model = 'L'
         #model = "anon8231489123/vicuna-13b-GPTQ-4bit-128g"
         branch = "main"
     else:
-        arr = models[choices[choice]]
-        model = f"{arr[0]}/{arr[1]}"
-        branch = arr[2]
+        #arr = models[choices[choice]]
+        #model = f"{arr[0]}/{arr[1]}"
+        #branch = arr[2]
+        model = 'O'.upper()
+        branch = "main"
 
     return model, branch
 
