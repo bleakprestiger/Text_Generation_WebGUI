@@ -35,8 +35,8 @@ def select_model_from_default_options():
         "Pythia-410M-deduped": ("EleutherAI", "pythia-410m-deduped", "main"),
         "legacy-vicuna-13b": ("eachadea", "legacy-vicuna-13b", "main"),
         "WizardLM-7B-uncensored-GPTQ": ("TheBloke", "WizardLM-7B-uncensored-GPTQ", "main"),
-        "Bleak/ggml-vicuna-13b-4bit": ("Bleak","ggml-vicuna-13b-4bit"),
-        "Bleak/ggml-vicuna-13b-4bit-rev1": ("Bleak","ggml-vicuna-13b-4bit-rev1"),
+        "ggml-vicuna-13b-4bit": ("Bleak","ggml-vicuna-13b-4bit"),
+        "ggml-vicuna-13b-4bit-rev1": ("Bleak","ggml-vicuna-13b-4bit-rev1"),
     }
 
     choices = {}
